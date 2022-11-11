@@ -11,6 +11,11 @@
   padding: 0;
   cursor: pointer;
   border: none;
+  transition: filter 1s;
+}
+
+.popup__btn-close:hover {
+  filter: opacity(60%);
 }
 
 @media (max-width: 767px) {
